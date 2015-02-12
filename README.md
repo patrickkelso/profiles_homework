@@ -1,6 +1,6 @@
 # profiles
 
-Development
+Shiny
 
 #### Table of Contents
 
