@@ -19,5 +19,9 @@ apache::vhost { "$vhost_fqdn":
   docroot => "$vhost_docroot",
 }
 
+file { "$vhost_docroot/index.html":
+  ensure  =>  file,
+  content =>  "$vhost_fqdn",
+}
 
 }
