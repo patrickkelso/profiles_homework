@@ -1,4 +1,4 @@
-class vhost1 {
+class profiles::vhost1 {
 
  ## Hiera lookups
   $vhost_fqdn           = hiera('profiles::vhost1::vhost_fqdn')
