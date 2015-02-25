@@ -1,5 +1,7 @@
 class profiles::scaleio::tb {
 
+  # First copy their site.pp
+
 Package {
   allow_virtual => true,
 }
