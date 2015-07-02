@@ -1,0 +1,3 @@
+reboot { 'before':
+  when            => pending,
+}
