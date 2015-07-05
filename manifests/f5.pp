@@ -1,4 +1,4 @@
-class profile::f5 {
+class profiles::f5 {
 
 include ::f5
 
